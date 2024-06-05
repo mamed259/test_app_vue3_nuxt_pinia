@@ -5,7 +5,7 @@
       <Loading />
     </div>
     <div v-if="error">Error: {{ error.message }}</div>
-    <div v-if="getCategoriesWithProduct">
+    <div v-if="getCategoriesWithProduct && !loading">
       <CategoryItem
         v-for="category in getCategoriesWithProduct"
         :name="category.name"

@@ -5,7 +5,7 @@
     </div>
 
     <div v-if="error">Error: Page not found</div>
-    <div v-if="product">
+    <div v-if="product && !loading">
       <BackButton />
       <p class="font-ubuntu_bold text-2xl mb-3">{{ product.name }}</p>
       <div class="flex gap-5">

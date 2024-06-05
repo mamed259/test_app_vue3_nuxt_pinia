@@ -19,8 +19,9 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
+interface Props {
   name: string;
   href: string;
-}>();
+}
+defineProps<Props>();
 </script>

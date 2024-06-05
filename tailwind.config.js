@@ -18,9 +18,7 @@ module.exports = {
       },
     },
     colors: {
-      indigo: "#5c6ac4",
       blue: "#005EB8",
-      red: "#de3618",
     },
   },
   plugins: [],

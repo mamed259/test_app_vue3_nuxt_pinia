@@ -34,7 +34,7 @@ export const useCategoriesStore = defineStore("categories", {
     },
     getOneCategoryBySlug({ categories }) {
       return (slug: string): Category | undefined => {
-        return categories.find((category: Category) => category.slug === slug);
+        return categories.find((category: Category) => category?.slug === slug);
       };
     },
   },

@@ -18,7 +18,6 @@ export const useProductStore = defineStore("product", {
           `https://api.profikalkulator.rigips.cz/products/${id}`
         );
         this.product = response.data;
-        console.log(response);
       } catch (error) {
         this.error = error as Error;
       } finally {

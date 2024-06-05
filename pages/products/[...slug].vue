@@ -4,7 +4,7 @@
       <Loading />
     </div>
     <div v-if="error">Error: {{ error.message }}</div>
-    <div v-if="category">
+    <div v-if="category && !loading">
       <p class="font-ubuntu_bold text-2xl mb-3">{{ category.name }}</p>
       <BackButton />
       <CategoryItem
