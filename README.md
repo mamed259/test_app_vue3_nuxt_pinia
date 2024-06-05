@@ -1,8 +1,8 @@
 # Online Price List Application
 
-[Live Demo](https://test-app-rigips.netlify.app/) to learn more.
+[Live Demo](https://test-app-rigips.netlify.app/).
 
-This project is a simple online price list application developed as a test project. It showcases the usage of various technologies and best practices including NuxtJS v3, Typescript, Tailwind CSS, Pinia for state management, and more.
+This project is a simple online price list application developed as a test project. It showcases the usage of various technologies and best practices including Vue 3, NuxtJS v3, Typescript, Tailwind CSS, Pinia for state management, and more.
 
 ## Setup
 
