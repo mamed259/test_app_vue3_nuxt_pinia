@@ -29,7 +29,7 @@ export const useCategoriesStore = defineStore("categories", {
   getters: {
     getCategoriesWithProduct({ categories }): Category[] {
       return categories.filter(
-        (category: Category) => category.products.length > 0
+        (category: Category) => category?.products.length > 0
       );
     },
     getOneCategoryBySlug({ categories }) {
